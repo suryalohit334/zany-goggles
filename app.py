@@ -12,7 +12,7 @@ def hello_world():
 
 
 @app.route("/test")
-def hello_world():
+def hello_world1():
     message=f"test1"
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
     requests.get(url) 
