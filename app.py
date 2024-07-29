@@ -3,9 +3,7 @@ import requests
 import time
 import logging
 import sys
-from caffeinate import caffeinate
 
-caffeinate.run()
 
 
 TOKEN = "6994416717:AAH_qEF1vSy1gZc1nXQ4eyM4dErJshFGJaM"
