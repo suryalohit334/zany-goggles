@@ -22,9 +22,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    for i in range(1000):
-        logger.debug("Harmless debug Message")
-        logger.info("Just an information")
+    for i in range(1500):
+       
         print("output")
         message=f"run::{i}"
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
@@ -36,8 +35,9 @@ def hello_world():
 
 @app.route("/test")
 def hello_world1():
-    message=f"test1"
-    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
+   
+    
+    url = f"https://glorious-tribble-7vr49g6g79rrhp4vw-5000.app.github.dev/test"
     requests.get(url) 
     mess="SAMPLE_TEST"
     return    mess
