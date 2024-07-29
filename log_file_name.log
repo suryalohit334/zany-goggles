@@ -16,3 +16,44 @@
 [03:07:23] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} INFO -  * Restarting with stat
 [03:07:23] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} WARNING -  * Debugger is active!
 [03:07:23] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} INFO -  * Debugger PIN: 772-265-902
+[03:09:06] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[03:09:06] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} INFO - [33mPress CTRL+C to quit[0m
+[03:09:06] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} INFO -  * Restarting with stat
+[03:09:07] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} WARNING -  * Debugger is active!
+[03:09:07] {/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/_internal.py:97} INFO -  * Debugger PIN: 224-326-648
+[03:09:09] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:09:09] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:09:09] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:09:09] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
+[03:10:08] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:10:08] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:10:08] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:10:08] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
+[03:11:07] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:11:07] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:11:07] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:11:07] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
+[03:12:06] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:12:06] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:12:06] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:12:06] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
+[03:13:04] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:13:04] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:13:04] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:13:04] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
+[03:14:03] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:14:03] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:14:03] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:14:03] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
+[03:15:02] {/workspaces/zany-goggles/app.py:31} INFO - info
+[03:15:02] {/workspaces/zany-goggles/app.py:32} WARNING - warning
+[03:15:02] {/workspaces/zany-goggles/app.py:33} ERROR - error
+[03:15:02] {/workspaces/zany-goggles/app.py:34} ERROR - exp
+NoneType: None
