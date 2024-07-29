@@ -8,6 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     for i in range(1000):
+        print("output")
         message=f"run::{i}"
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
         requests.get(url)
