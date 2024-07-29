@@ -3,17 +3,10 @@ import requests
 import time
 import logging
 import sys
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-# Create and configure logger
+from caffeinate import caffeinate
 
-logger = logging.getLogger()
- 
-# Setting the threshold of logger to DEBUG
-logger.setLevel(logging.DEBUG)
- 
-# Test messages
-logger.debug("Harmless debug Message")
-logger.info("Just an information")
+caffeinate.run()
+
 
 TOKEN = "6994416717:AAH_qEF1vSy1gZc1nXQ4eyM4dErJshFGJaM"
 chat_id = "998041732"
