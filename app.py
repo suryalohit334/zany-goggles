@@ -1,6 +1,23 @@
 from flask import Flask, render_template
 import requests
 import time
+import logging
+ 
+# Create and configure logger
+logging.basicConfig(filename="newfile.log",
+                    format='%(asctime)s %(message)s',
+                    filemode='w')
+ 
+# Creating an object
+logger = logging.getLogger()
+ 
+# Setting the threshold of logger to DEBUG
+logger.setLevel(logging.DEBUG)
+ 
+# Test messages
+logger.debug("Harmless debug Message")
+logger.info("Just an information")
+
 TOKEN = "6994416717:AAH_qEF1vSy1gZc1nXQ4eyM4dErJshFGJaM"
 chat_id = "998041732"
 app = Flask(__name__)
